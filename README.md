@@ -22,7 +22,7 @@ TABLE=finance.year_2023
 ## Usage
 To run the application use the following flag
 ```bash
-docker run --rm --env-file=.env -v /Users/joebloggs/backups/:/go-backup-postgres/backups/ go-backup-postgres
+docker run --rm --env-file=.env -v /Users/joebloggs/backups/:/go-backup-postgres/backups/ jjcfrank/go-backup-postgres:0.1.0
 ```
 
 **Note for Apple silicon chips**
