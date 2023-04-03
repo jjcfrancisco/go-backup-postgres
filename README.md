@@ -42,5 +42,5 @@ RUN CGO_ENABLED=0 GOOS=linux GOARCH=arm go build -o app
 
 ## License
 
-Copyright © 2019 [Franck Abgrall](https://github.com/kefranabg).<br />
+Copyright © 2019 [Frank Jimenez](https://github.com/jjcfrank).<br />
 This project is [MIT](LICENSE) licensed.
