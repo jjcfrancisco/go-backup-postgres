@@ -17,7 +17,9 @@ func main() {
 		os.Exit(1)
 	}
 
-	destroyBackup(remove)
+	if remove != nil{
+		destroyBackup(remove)
+	}
 
 	fmt.Println("Backup completed successfully.")
 }
